@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Somnia — 冥想助眠与白噪音 | Meditation Sleep Aid & White Noise</title>
+<meta name="description" content="Somnia 是一款为睡前放松、专注冥想和安静休息设计的声音应用：雨声、海浪、颂钵、藏传佛教颂念与白噪音，为夜晚留出一段安静空间。" />
+<style>
+  :root {
+    --bg: #0b0e1a;
+    --bg-soft: #12162a;
+    --ink: #e9ecf7;
+    --muted: #9aa2c0;
+    --accent: #8fb3ff;
+    --accent-soft: #2a3562;
+    --line: #232a4a;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: radial-gradient(ellipse at top, #161b34 0%, var(--bg) 55%);
+    color: var(--ink);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+    line-height: 1.7;
+  }
+  .wrap { max-width: 980px; margin: 0 auto; padding: 0 24px; }
+  header.hero {
+    padding: 72px 0 56px;
+    text-align: center;
+  }
+  .moon {
+    font-size: 2.4rem;
+    margin-bottom: 12px;
+  }
+  h1 {
+    font-size: 2.4rem;
+    margin: 0 0 8px;
+    letter-spacing: 0.5px;
+  }
+  .subtitle {
+    color: var(--accent);
+    font-size: 1.15rem;
+    margin: 0 0 20px;
+  }
+  .tagline {
+    color: var(--muted);
+    font-size: 1.05rem;
+    max-width: 560px;
+    margin: 0 auto 8px;
+  }
+  .tagline.en {
+    font-size: 0.95rem;
+    color: #6b7396;
+  }
+  .cta {
+    margin-top: 32px;
+    display: inline-flex;
+    gap: 14px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .btn {
+    display: inline-block;
+    padding: 13px 28px;
+    border-radius: 999px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.98rem;
+    transition: transform 0.15s ease;
+  }
+  .btn:hover { transform: translateY(-2px); }
+  .btn-primary {
+    background: linear-gradient(135deg, #8fb3ff, #6a8dff);
+    color: #0b0e1a;
+  }
+  .btn-secondary {
+    background: transparent;
+    color: var(--ink);
+    border: 1px solid var(--line);
+  }
+  section {
+    padding: 48px 0;
+    border-top: 1px solid var(--line);
+  }
+  h2 {
+    font-size: 1.4rem;
+    margin: 0 0 28px;
+    text-align: center;
+  }
+  .features {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+  }
+  .card {
+    background: var(--bg-soft);
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    padding: 22px 20px;
+  }
+  .card .icon { font-size: 1.6rem; margin-bottom: 10px; }
+  .card h3 { margin: 0 0 8px; font-size: 1.02rem; }
+  .card p { margin: 0; color: var(--muted); font-size: 0.9rem; }
+  .pills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+  }
+  .pill {
+    background: var(--accent-soft);
+    color: var(--accent);
+    border-radius: 999px;
+    padding: 8px 16px;
+    font-size: 0.88rem;
+  }
+  .disclaimer {
+    background: var(--bg-soft);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    padding: 18px 20px;
+    color: var(--muted);
+    font-size: 0.85rem;
+  }
+  footer {
+    padding: 40px 0 60px;
+    text-align: center;
+    color: var(--muted);
+    font-size: 0.85rem;
+  }
+  footer a { color: var(--accent); }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="hero">
+      <div class="moon">🌙</div>
+      <h1>Somnia</h1>
+      <p class="subtitle">冥想助眠与白噪音 · Meditation Sleep Aid &amp; White Noise</p>
+      <p class="tagline">用雨声、颂钵、白噪音与冥想声音，为夜晚留出一段安静空间。</p>
+      <p class="tagline en">A quiet space away from the noise — breathe, drift, and let go.</p>
+      <div class="cta">
+        <a class="btn btn-primary" href="https://apps.apple.com/app/id6798093381" target="_blank" rel="noopener">在 App Store 下载</a>
+        <a class="btn btn-secondary" href="#features">了解更多</a>
+      </div>
+    </header>
+
+    <section id="features">
+      <h2>主要功能 / Features</h2>
+      <div class="features">
+        <div class="card">
+          <div class="icon">🌧️</div>
+          <h3>多种助眠声音</h3>
+          <p>雨声、海浪、风声、夜晚环境、白噪音、粉噪音、棕噪音等，随心组合出适合今晚的声音空间。</p>
+        </div>
+        <div class="card">
+          <div class="icon">🎐</div>
+          <h3>冥想与颂钵</h3>
+          <p>温暖的颂钵、gong、soft bowl 等声音，帮助你在专注冥想中慢慢安定下来。</p>
+        </div>
+        <div class="card">
+          <div class="icon">🕉️</div>
+          <h3>藏传佛教声音栏目</h3>
+          <p>适合静心、反思和日常练习的音频内容，带来更深层的宁静感受。</p>
+        </div>
+        <div class="card">
+          <div class="icon">⏱️</div>
+          <h3>计时器</h3>
+          <p>适合睡前、冥想或短暂休息，设定时长后安心让声音自然淡出。</p>
+        </div>
+        <div class="card">
+          <div class="icon">🌑</div>
+          <h3>简洁深色界面</h3>
+          <p>减少干扰的深色设计，让你更容易放下手机、安定入睡。</p>
+        </div>
+        <div class="card">
+          <div class="icon">🍼</div>
+          <h3>婴儿安抚声音</h3>
+          <p>柔和的安抚音效，也适合帮助宝宝更快进入安稳的睡眠状态。</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>适合谁使用 / Who it's for</h2>
+      <div class="pills">
+        <span class="pill">失眠困扰</span>
+        <span class="pill">压力大 / 焦虑</span>
+        <span class="pill">冥想练习者</span>
+        <span class="pill">需要专注工作学习</span>
+        <span class="pill">哄睡宝宝的父母</span>
+        <span class="pill">睡前放松习惯</span>
+      </div>
+    </section>
+
+    <section>
+      <div class="disclaimer">
+        Somnia 不提供医疗建议，也不用于诊断、治疗或替代专业医疗护理。它只是一个帮助你营造安静氛围的声音工具。
+        <br /><br />
+        Somnia does not provide medical advice and is not intended to diagnose, treat, or replace professional medical
+        care. It is simply a sound tool to help you create a calmer atmosphere.
+      </div>
+    </section>
+
+    <footer>
+      <p>© 2026 VITANIA PTE. LTD. — <a href="https://www.vitania.net" target="_blank" rel="noopener">vitania.net</a></p>
+      <p>联系我们 / Contact: <a href="mailto:ann.liu@vitania.net">ann.liu@vitania.net</a></p>
+    </footer>
+  </div>
+</body>
+</html>
