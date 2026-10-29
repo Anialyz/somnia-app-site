@@ -89,6 +89,8 @@
   <h2>3. 订阅与支付 / Subscriptions and Payments</h2>
   <p>购买 App 内订阅时，iOS 交易由 Apple App Store 处理，Android 交易由 Google Play 处理。App 使用商店返回的购买状态提供权益，并在本机保存相应状态。VITANIA 不接收你的支付卡信息。订阅管理、续费和取消通过对应的 Apple 或 Google 账户进行；本机试用不自动产生订阅扣款。</p>
   <p class="en-block">In-app subscriptions are processed by Apple's App Store on iOS and Google Play on Android. The app uses store purchase results to provide access and stores the corresponding status locally. VITANIA does not receive your payment card details. Manage renewals and cancellation through the relevant Apple or Google account. The local introductory trial does not automatically create a paid subscription.</p>
+  <p>在 Android 版本中，为核实订阅和防止伪造购买，App 会通过加密连接向 VITANIA 服务发送商品标识、Google Play 购买凭据和随机安装标识。服务器向 Google Play 核实购买状态，并向 App 返回权益及有效期。使用免费访问码时，App 会将该访问码与随机安装标识发送到 VITANIA 服务验证；这不会创建付费订阅。</p>
+  <p class="en-block">On Android, the app sends the product identifier, Google Play purchase token and random installation identifier to VITANIA services over an encrypted connection to verify subscription access and prevent fraudulent purchases. The server verifies the purchase with Google Play and returns the entitlement and expiry to the app. If you redeem a complimentary access code, the app sends that code and its random installation identifier to VITANIA services for verification; this does not create a paid subscription.</p>
   <p><a href="https://www.apple.com/legal/privacy/" rel="noopener">Apple Privacy Policy</a> · <a href="https://policies.google.com/privacy" rel="noopener">Google Privacy Policy</a> · <a href="https://privacy.microsoft.com/privacystatement" rel="noopener">Microsoft Privacy Statement</a></p>
 
   <h2>4. 广告与同意 / Advertising and Consent</h2>
